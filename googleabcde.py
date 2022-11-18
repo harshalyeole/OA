@@ -1,3 +1,27 @@
+# We are given a string text of length N consisting of
+# the letters 'a, 'b' or 'c'. We can insert any of those
+# letters before or after any letter in the string
+# The goal is to insert letters into text so that it will
+# follow the pattern "abcabca...", i.e. it should start with
+# a letter 'a, letter 'a' should be followed by 'b', letter "b'
+# should be followed by 'c, and letter c' by a. The string
+# may end with any of those three letters.
+# What is the minimum number of letters we need to
+# insert into text?
+# Write a function:
+# int solution(String text);
+# that, given a string text of length N, returns the
+# minimum number of insertions needed to
+# make text follow the described pattern.
+# Examples:
+# 1. For text = "aabcc" we need to insert letters 'b'
+# and 'c' between the pair of letters 'a', and then
+# insert letters 'a' and 'b' between the two letters
+# "c. This way we obtain the string "abcabcabc"
+# and the function should return 4.
+# 2. For text = "abcabcabca", we do not
+
+
 # Python program to print the
 # Minimal moves to form a string
 # by appending string and adding characters
