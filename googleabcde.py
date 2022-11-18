@@ -1,3 +1,6 @@
+# Working Solutions
+# https://www.desiqna.in/6957/google-oa-coding-questions-and-solutions-set-22-2022-usa
+
 # We are given a string text of length N consisting of
 # the letters 'a, 'b' or 'c'. We can insert any of those
 # letters before or after any letter in the string
