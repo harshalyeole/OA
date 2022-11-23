@@ -1,6 +1,7 @@
+#1: String Patterns 
+# Consonants and vowels, max number of vowels that can be repeated
 
 def power(x, y, p):
-     
     res = 1
     x = x % p
  
