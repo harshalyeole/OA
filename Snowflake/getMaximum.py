@@ -1,5 +1,6 @@
-import math
+# 12/08/2022
 
+import math
 
 def solution(arr):
     # idea is that you can keep shift value from right to left, but not left to right,
