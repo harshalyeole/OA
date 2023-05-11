@@ -32,8 +32,8 @@ def maxSum(inputArr):
 
 def main():
     inputArr = []
-    inputArr_size = int(input())
-    inputArr = list(map(int, input().split()))
+    #input array size is not required that's why we are omitting it
+    inputArr = list(map(int, input("Put the array values accordingly seperated by a spaceabar-->  ").split()))
 
     result = maxSum(inputArr)
     print(result)

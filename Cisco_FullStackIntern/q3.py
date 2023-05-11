@@ -31,7 +31,7 @@ def funcDrop(xCoordinate, yCoordinate):
     ans = 1
     for i in range(len(xCoordinate)):
         time = 1
-        for j in range(len(xCoordinate)):
+        for j in range(i + 1, len(xCoordinate)):
             if xCoordinate[i] == xCoordinate[j]:
                 time += 1
         if time > ans:
@@ -47,15 +47,15 @@ def funcDrop(xCoordinate, yCoordinate):
 
 def main():
     xCordinate = []
-    xCordinate_size = int(input())
-    xCordinate = list(map(int,input().split()))
+    #Same the xcorrdinate size is not reqired
+    xCordinate = list(map(int,input("First put the xcordinates --> ").split()))
 
     yCordinate = []
-    yCordinate_size = int(input())
-    yCordinate = list(map(int,input().split()))
+    #Same the ycorrdinate size is not reqired
+    yCordinate = list(map(int,input("Put the ycordinates --> ").split()))
 
     result = funcDrop(xCordinate, yCordinate)
     print(result)
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     main()
