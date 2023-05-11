@@ -1,2 +1,2 @@
-# leetcodehub
-Collection of Assessment questions recieved during Summer 2023 Internship search
+# OA
+Collection of Assessment questions recieved during Summer/Fall 2023 Internship search
